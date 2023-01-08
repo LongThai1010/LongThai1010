@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-[50px];
+    }
+
+    body {
+      
+        font-family: "Poppins", sans-serif;
+      
+    }
+
+    @media (min-width: 350px) {
+        .m\:hidden {
+            display: none;
+          }
+        
+          .m\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        
+          .m\:gap-y-7 {
+            row-gap: 1.75rem;
+          }
+        
+          .m\:text-\[12px\] {
+            font-size: 12px;
+          }
+        
+          .m\:text-2xl {
+            font-size: 1.5rem;
+            line-height: 2rem;
+          }
+    }
+}

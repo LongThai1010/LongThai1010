@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.em.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/build/tailwind.css">
+    <link rel="stylesheet" href="/build//app.css">
+    <!-- lenh chay code: npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch -->
+</head>
+
+<body>
+    <!-- header -->
+    <div class="w-full max-w-full h-[64px] bg-[#fff] flex items-center justify-between px-5 lg:justify-between lg:items-center lg:px-10 fixed z-10">
+
+        <div class=" ml-[-12px] flex items-center justify-center   ">
+            <img class="w-[60px]" src="/img/header-logo.png" alt="" >
+           <a class="font-black text-[20px] ml-[-10px] lg:text-[30px] lg:ml-[-10px]" href="index.html">ELEMENT</a> 
+        </div>
+
+        <div>   
+            <ul class="hidden lg:flex items-center gap-x-10 text-[14px] text-[#222222] uppercase">
+                 <li><a href="/index.html">home</a></li>   
+                 <li><a href="#">skate</a></li>   
+                 <li><a href="/product.html">product</a></li>   
+                 <li><a href="#">gift guide</a></li>   
+                 <li><a href="#">sale</a></li>   
+                 <li><a href="/register.html">register</a></li>   
+            </ul>
+        </div>
+
+        
+        
+        <div class="lg:text-[14px] text-[20px] lg:cursor-pointer">
+           <a href="">
+            <i class="fa-solid fa-search"></i>
+            </a> 
+            <a href="">
+                <i class="fa-solid fa-cart-shopping pl-5"></i>  
+            </a>
+                <a href="">
+
+                    <i class="fa-solid fa-bars pl-5 lg:hidden"></i>
+                </a>
+           </div>
+    </div>
+
+
+    <!-- slider -->
+    <!-- <div class="pt-[64px] relative">
+        <div class="">
+            <img class="" class="" src="/img/slide.png" alt="">
+        </div>
+        <button class="absolute bg-[black] rounded-[5px] w-[130px] lg:w-[250px] left-[50%] bottom-1 lg:bottom-4 translate-x-[-50%] translate-y-[-50%] hover:bg-slate-800" > 
+           <a class=" block py-[4px] px-[8px] text-[8px] lg:py-[15px] lg:px-[50px] lg:text-[11px] text-[#fff] outline-none font-semibold tracking-widest uppercase" href="">Shop the collection</a>  
+
+        </button>
+    </div> -->
+
+    <!-- product -->
+
+    <!-- <div class="pt-5 w-full lg:px-10 px-5">
+        <h1 class="text-center">Product</h1>
+        
+        <div class="flex flex-col lg:flex-row lg:justify-center gap-x-12">
+            <div class="lg:w-[25%] w-full pt-16">
+                <span class="lg:text-[24px] text-[20px] uppercase py-3 "><i class="fa-solid fa-bars"></i> categories</span>
+                <ul class="hidden lg:block">
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">skate</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">clothing</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">collections</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">filters</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">size</a></li>
+                    
+                </ul>
+
+            </div>
+            
+            <div class="lg:w-[75%] w-full">
+                <div class="grid grid-cols-2 lg:grid-cols-3">
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother1.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother2.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother3.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother2.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother3.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother1.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> -->
+
+    <!-- register -->
+    <!-- <h1 class="text-center pt-[100px]">register</h1>
+    <div class="max-w-[555px] mx-auto bg-[#eee]">
+        <div class="">
+            <form action="">
+                <p>create account</p>
+
+                <h1>my element</h1>
+
+                <label for="">first name
+                    <input type="text" placeholder="frist name">
+                </label>
+                
+            </form>
+        </div>
+    </div> -->
+
+    <div class="container mx-auto">
+        <div class="flex justify-center px-6 py-24">
+            <!-- Row -->
+            <div class="w-full xl:w-3/4 lg:w-11/12 flex">
+                <!-- Col -->
+                <div
+                    class="w-full h-auto bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
+                    style="background-image: url('https://source.unsplash.com/Mv9hjnEUHR4/600x800')"
+                ></div>
+                <!-- Col -->
+                <div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
+                    <h3 class="pt-4 text-2xl text-center">Create an Account!</h3>
+                    <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+                        <div class="mb-4 md:flex md:justify-between">
+                            <div class="mb-4 md:mr-2 md:mb-0">
+                                <label class="block mb-2 text-sm font-bold text-gray-700" for="firstName">
+                                    First Name
+                                </label>
+                                <input
+                                    class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    id="firstName"
+                                    type="text"
+                                    placeholder="First Name"
+                                />
+                            </div>
+                            <div class="md:ml-2">
+                                <label class="block mb-2 text-sm font-bold text-gray-700" for="lastName">
+                                    Last Name
+                                </label>
+                                <input
+                                    class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    id="lastName"
+                                    type="text"
+                                    placeholder="Last Name"
+                                />
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+                                Email
+                            </label>
+                            <input
+                                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                id="email"
+                                type="email"
+                                placeholder="Email"
+                            />
+                        </div>
+                        <div class="mb-4 md:flex md:justify-between">
+                            <div class="mb-4 md:mr-2 md:mb-0">
+                                <label class="block mb-2 text-sm font-bold text-gray-700" for="password">
+                                    Password
+                                </label>
+                                <input
+                                    class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border border-red-500 rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    id="password"
+                                    type="password"
+                                    placeholder="******************"
+                                />
+                                <p class="text-xs italic text-red-500">Please choose a password.</p>
+                            </div>
+                            <div class="md:ml-2">
+                                <label class="block mb-2 text-sm font-bold text-gray-700" for="c_password">
+                                    Confirm Password
+                                </label>
+                                <input
+                                    class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    id="c_password"
+                                    type="password"
+                                    placeholder="******************"
+                                />
+                            </div>
+                        </div>
+                        <div class="mb-6 text-center">
+                            <button
+                                class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                                type="button"
+                            >
+                                Register Account
+                            </button>
+                        </div>
+                        <hr class="mb-6 border-t" />
+                        <div class="text-center">
+                            <a
+                                class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+                                href="#"
+                            >
+                                Forgot Password?
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a
+                                class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+                                href="./index.html"
+                            >
+                                Already have an account? Login!
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+   
+
+    <!-- footer -->
+
+    <div class="bg-black relative ">
+        <div class="pt-5 grid lg:grid-cols-5 grid-cols-2 gap-5 lg:gap-y-7 lg:gap-x-15 px-5 lg:px-10 lg:py-15 uppercase tracking-wider">
+            <div class="">
+                <h2 class="text-[#fff] mb-5">JOIN OUR MAILING LIST</h2>
+
+                <p class="text-[14px] text-[#fff]">Sign up for Element emails and get 20% off one item. Plus free shipping if you create an account.
+
+                </p>
+            </div>
+
+            <div class="">
+                <ul>
+                  <li class="pb-4"><a href="" class="text-[#fff] hover:text-[#999] mb-5">about</a></li>    
+                  <li  class="pb-4"><a href="" class="text-[#fff] hover:text-[#999] mb-5">TEAM</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#fff] hover:text-[#999] mb-5">STORE LOCATOR</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#fff] hover:text-[#999] mb-5">PRIVACY POLICY</a></li>    
+                  <li class="pb-4"> <a href="" class="text-[#fff] hover:text-[#999] mb-5">TERMS OF USE</a></li>    
+                 
+                </ul>
+                
+
+
+            
+            </div>
+
+            <div class="">
+
+                <h2 class="text-[#fff] mb-5">help</h2>
+
+                <ul>
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5">Join My Element</a></li>    
+                  <li  class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5">Orders + Return Status</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5">FAQ</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5">Contact Us</a></li>    
+                  <li class="pb-4"> <a href="" class="text-[#999] hover:text-[#fff] mb-5">CA Supply Chain Act</a></li>    
+                  <li class="pb-4"> <a href="" class="text-[#999] hover:text-[#fff] mb-5">Do Not Sell or Share My Personal Information</a></li>    
+                 
+                </ul>
+            
+            </div>
+
+            <div class="">
+
+                <h2 class="text-[#fff] mb-5">social</h2>
+
+                <ul>
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5"><i class="fa-brands fa-facebook"></i> Facebook</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5"><i class="fa-brands fa-twitch"></i> twitch</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5"><i class="fa-brands fa-instagram"></i> instagram</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5"><i class="fa-brands fa-youtube"></i> youtube</a></li>    
+                  <li class="pb-4"><a href="" class="text-[#999] hover:text-[#fff] mb-5"><i class="fa-brands fa-github"></i> github</a></li>    
+
+                </ul>
+            
+            </div>
+
+            <div class="">
+                <h2 class="text-[#fff] mb-5">contact us here</h2>
+
+                <p class="text-[16px] mb-5 text-[#fff]"> <i class="fa-solid fa-location-dot"></i>
+                    Bumberbee
+                </p>
+
+                <p class="text-[16px] mb-5 text-[#fff]"> <i class="fa-solid fa-phone"></i>
+                    09051234567
+                </p>
+
+                <p class="text-[16px] mb-5  text-[#fff]"> <i class="fa-solid fa-envelope"></i>
+                    Element@gmail.com
+                </p>
+            </div>
+
+            
+            
+        </div>
+        <div class="border-t border-[#222] flex justify-center items-center" >
+            <h2 class="text-[#fff] text-[10px] lg:text-[12px] py-5 text-center uppercase tracking-wider">© 2022 Boardriders. All rights reserved. code by long thai</h2>
+            
+            
+            <!-- toggle dark -->
+            
+            <label for="toggle" class="inline-block cursor-pointer toggle-switch">
+                <input type="checkbox" class="darkmode-input hidden" id="toggle">
+                <div class="absolute w-15 h-6 lg:w-[100px] lg:h-10 border border-[#ccc] rounded-full right-5 bottom-3 z-25 p-[5px]">
+                    
+                    <div class="lg:w-7 lg:h-7 w-3 h-3 bg-[#ccc] rounded-full transition-transform darkmode-spinner">
+                        
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
