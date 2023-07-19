@@ -602,11 +602,6 @@ body {
   margin-bottom: 5rem;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .ml-\[-12px\] {
   margin-left: -12px;
 }
@@ -641,10 +636,6 @@ body {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-\[124px\] {
-  margin-top: 124px;
 }
 
 .mb-2 {
@@ -926,11 +917,6 @@ body {
   background-color: rgb(106 90 249 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#999\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 153 153 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#eee\] {
   --tw-bg-opacity: 1;
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
@@ -1032,6 +1018,11 @@ body {
   padding-right: 1.5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1040,26 +1031,6 @@ body {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .pl-5 {
@@ -1096,14 +1067,6 @@ body {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-\[124px\] {
-  padding-top: 124px;
 }
 
 .pt-\[100px\] {
