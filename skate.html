@@ -29,7 +29,7 @@
         <div>   
             <ul class="hidden lg:flex items-center gap-x-10 text-[14px] text-[#222222] uppercase">
                  <li><a href="/index.html">home</a></li>   
-                 <li><a href="#">skate</a></li>   
+                 <li><a href="/skate.html">skate</a></li>   
                  <li><a href="/product.html">product</a></li>   
                  <li><a href="#">gift guide</a></li>   
                  <li><a href="#">sale</a></li>   
@@ -42,7 +42,7 @@
         <div class="lg:text-[14px] text-[20px] lg:cursor-pointer">
            <a href="">
             <i class="fa-solid fa-search"></i>
-            </a> 
+        </a> 
             <a href="">
                 <i class="fa-solid fa-cart-shopping pl-5"></i>  
             </a>
@@ -54,97 +54,99 @@
     </div>
 
 
-    
-    <!-- product -->
-    <div class="container mx-auto">
-        <div class="flex justify-center px-6 py-24">
-            <!-- Row -->
-            <div class="w-full xl:w-3/4 lg:w-11/12 flex">
-                <!-- Col -->
-                <div
-                    class="w-full h-auto bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
-                    style="background-image: url('https://images.unsplash.com/photo-1597019558926-3eef445fdf60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80')"
-                ></div>
-                <!-- Col -->
-                <div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
-                    <h3 class="pt-4 text-2xl text-center">Create an Account!</h3>
-                    <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-bold text-gray-700" for="username">
-                                Username
-                            </label>
-                            <input
-                                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                                id="username"
-                                type="username"
-                                placeholder="username"
-                            />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
-                                Email
-                            </label>
-                            <input
-                                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                                id="email"
-                                type="email"
-                                placeholder="Email"
-                            />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-bold text-gray-700" for="password">
-                                Password
-                            </label>
-                            <input
-                                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                                id="password"
-                                type="password"
-                                placeholder="password"
-                            />
-                        </div>
+    <!-- slider -->
+    <div class="pt-[64px] relative">
+        <div class="">
+            <img class="" class="" src="/img/slide.png" alt="">
+        </div>
+        <button class="absolute bg-[black] rounded-[5px] w-[130px] lg:w-[250px] left-[50%] bottom-1 lg:bottom-4 translate-x-[-50%] translate-y-[-50%] hover:bg-slate-800" > 
+           <a class=" block py-[4px] px-[8px] text-[8px] lg:py-[15px] lg:px-[50px] lg:text-[11px] text-[#fff] outline-none font-semibold tracking-widest uppercase" href="">Shop the collection</a>  
 
-                        <div class="mb-4">
-                            <label class="block mb-2 text-sm font-bold text-gray-700" for="confirm_password">
-                                Confirm password
-                            </label>
-                            <input
-                                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                                id="confirm_password"
-                                type="confirm_password"
-                                placeholder="confirm_password"
-                            />
-                        </div>
-                        
-                        <div class="mb-6 text-center">
-                            <button
-                                class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
-                                type="button"
-                            >
-                                Register Account
-                            </button>
-                        </div>
-                        <hr class="mb-6 border-t" />
-                        <div class="text-center">
-                            <a
-                                class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                                href="#"
-                            >
-                                Forgot Password?
-                            </a>
-                        </div>
-                        <div class="text-center">
-                            <a
-                                class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                                href="./login.html"
-                            >
-                                Already have an account? Login!
-                            </a>
-                        </div>
-                    </form>
+        </button>
+    </div>
+
+    <!-- product -->
+
+    <div class="pt-5 w-full lg:px-10 px-5">
+        <h1 class="text-center">Skate</h1>
+        
+        <div class="flex flex-col lg:flex-row lg:justify-center gap-x-12">
+            <div class="lg:w-[25%] w-full pt-16">
+                <span class="lg:text-[24px] text-[20px] uppercase py-3 "><i class="fa-solid fa-bars"></i> categories</span>
+                <ul class="hidden lg:block">
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">skate</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">clothing</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">collections</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">filters</a></li>
+                    <li class="block"><a class="block font-medium px-2 py-3 border-b border-gray-100 hover:bg-slate-100" href="#">size</a></li>
+                    
+                </ul>
+
+            </div>
+            
+            <div class="lg:w-[75%] w-full">
+                <div class="grid grid-cols-2 lg:grid-cols-3">
+                    <div class="px-2 pb-12">
+                        <a href="./order.html">
+                        <img class="block" src="/img/clother1.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="./order.html">
+                        <img class="block" src="/img/clother2.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR  | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother3.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother2.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother3.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
+
+                    <div class="px-2 pb-12">
+                        <a href="">
+                        <img class="block" src="/img/clother1.jpg" alt="">
+                        <p class="font-normal text-[14px] text-center">STAR WARS™ | Vader Short Sleeve T-Shirt</p>
+                        <p class="text-[12px] text-center mt-2">$35.00</p>
+                        <p class="text-[12px] text-center mt-2">2 color</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </div>
+
+  
+
 
 
 
